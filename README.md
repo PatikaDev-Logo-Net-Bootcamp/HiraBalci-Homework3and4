@@ -1,4 +1,4 @@
-# HiraBalc-Homework3and4
+# HiraBalci-Homework3and4
 
 # Homework three
 
