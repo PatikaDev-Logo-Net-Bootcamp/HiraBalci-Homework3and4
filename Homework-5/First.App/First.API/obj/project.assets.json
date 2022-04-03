@@ -6047,11 +6047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\First.App\\First.API\\First.API.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.API\\First.API.csproj",
       "projectName": "First.API",
-      "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.API\\First.API.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.API\\First.API.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\First.App\\First.API\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6068,14 +6068,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\First.App\\First.App.Core\\First.App.Business.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Core\\First.App.Business.csproj"
+            "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Core\\First.App.Business.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Core\\First.App.Business.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj"
+            "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj"
             },
-            "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj"
+            "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj"
             }
           }
         }

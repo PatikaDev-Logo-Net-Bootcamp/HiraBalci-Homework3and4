@@ -7,7 +7,6 @@ namespace CalculatorUnitTest
     public class CalculatorTest
     {
         [Fact]
-        // öznitelik ,yapmýþ old. metodun test çalýþmalarý tarafýndan yürütülmesi gerektiðini belitir.
         public void Be_able_to_add_two_numbers()
         {
             var calc = new Calculator();
@@ -21,7 +20,7 @@ namespace CalculatorUnitTest
             int result = calc.Addition(number1, number2);
 
             //Assert
-            Assert.Equal(20, result);//20 ise cvp ok olarak girer
+            Assert.Equal(20, result);
             Assert.NotEqual(0, result);
 
             Assert.Contains<int>(containsValues, value => value == result);

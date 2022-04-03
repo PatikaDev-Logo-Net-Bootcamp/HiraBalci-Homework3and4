@@ -9,20 +9,20 @@ namespace BackgroundQueue.API.Background
 {
     public class BackgroundWorker : BackgroundService
     {
-        private readonly IBackgroundQueue<Book> queue;//kitap işlemlerini buna göre yapacağım
-        private readonly IServiceScopeFactory serviceFactory;// scopte olarak kullanmamı sağlayan interface
-        private readonly ILogger<BackgroundWorker> logger;//loggerlama  için aldık.bunu kullanacağım için yazdım.
+        private readonly IBackgroundQueue<Book> queue;
+        private readonly IServiceScopeFactory serviceFactory;
+        private readonly ILogger<BackgroundWorker> logger;
 
         public BackgroundWorker(IBackgroundQueue<Book> queue, IServiceScopeFactory serviceFactory, ILogger<BackgroundWorker> logger)
         {
-            this.queue = queue;//bunlaro constructure ekledim bunlar oluşştu.
+            this.queue = queue;
             this.serviceFactory = serviceFactory;
             this.logger = logger;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            logger.LogInformation("{Type} is now running in the background.", nameof(BackgroundWorker));//buraya log basalım
+            logger.LogInformation("{Type} is now running in the background.", nameof(BackgroundWorker));
             await BackgroundProcessing(stoppingToken);
         }
 
@@ -32,27 +32,27 @@ namespace BackgroundQueue.API.Background
             return base.StopAsync(cancellationToken);
         }
 
-        private async Task BackgroundProcessing(CancellationToken stoppingToken) //canceltoken iptal işlemini sağlıyor çok sık göreceğim bir yapı
+        private async Task BackgroundProcessing(CancellationToken stoppingToken)
         {
-            while (!stoppingToken.IsCancellationRequested)//bu false olana kadar çalışmasını bekliyorum
+            while (!stoppingToken.IsCancellationRequested)
             {
                 try
                 {
-                    await Task.Delay(500, stoppingToken);//500 msnde bir beklesin
-                    var book = queue.Dequeue();//önce br kuruğu boşaltsın
-                    if (book == null) continue;//nullsa işeleme devam et.Döngün kırılmasın.
+                    await Task.Delay(500, stoppingToken);
+                    var book = queue.Dequeue();
+                    if (book == null) continue;
 
-                    logger.LogInformation("Book Found! Starting to process");//işleme başla diye logladım.
-                    using (var scope = serviceFactory.CreateScope())//bu scope arasında yazdığın scope yaptıktan sonra otomatikmen dispose işlemi yapar
+                    logger.LogInformation("Book Found! Starting to process");
+                    using (var scope = serviceFactory.CreateScope())
                     {
-                        var publisher = scope.ServiceProvider.GetRequiredService<IBookPublisher>();//işlemi publish edicem.
+                        var publisher = scope.ServiceProvider.GetRequiredService<IBookPublisher>();
                         await publisher.Publish(book, stoppingToken);
                     }
 
                 }
                 catch (System.Exception ex)
                 {
-                    logger.LogError("An Error when publishing a book. Exception", ex);//eğer işlem de herhangi bir sıkıntı olursa burayı basacaktır.
+                    logger.LogError("An Error when publishing a book. Exception", ex);
                 }
             }
         }

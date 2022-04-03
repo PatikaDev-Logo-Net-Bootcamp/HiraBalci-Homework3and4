@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {}
+    "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
+    "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
         "projectName": "First.App.DataAccess.EntityFramework",
-        "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.DataAccess.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj"
+              "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\First.App.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
+    "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\First.App.Domain.csproj",
         "projectName": "First.App.Domain",
-        "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\First.App.Domain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

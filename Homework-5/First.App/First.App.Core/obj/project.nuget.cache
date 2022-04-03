@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a6Opn1fw85oiBdr1BGTvuoQ/xRh2Vy/l6zZi/bM25reDKQvME4kQbKNBIWzO678FfK5AJ3Szu1MapYN9p7XMSQ==",
+  "dgSpecHash": "4ZJgWzhflipSNXrnl3f2ukjgvTUpAdm0ijydA8wfbRrpve4hPLNGjUo1pkrmNoZFIfWrGkjwkdb6CHZJEL8VAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Core\\First.App.Business.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Core\\First.App.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

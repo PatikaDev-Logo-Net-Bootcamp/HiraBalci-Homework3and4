@@ -34,12 +34,9 @@ namespace BackgroundQueue.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "BackgroundQueue.API", Version = "v1" });
             });
-            //aþaðýda yazdýðým background servis old belirtmem lazým
-            services.AddHostedService<BackgroundWorker>();//bu iþlem yapýcak olan background workerý yazdým kuyruk yapýsý olþturdum kullanýcýnýn beklemesi için (kuyruk boþaltma iþlemide yapýyor backgrpund worker)
-            //singleton ile beraber queue ekleyeceðim.niye singleton benim için birçok kuyruk olursa yönetemem.tek bir instanst ile yönetmem lazým ki iþler krýþmamalý.
+            services.AddHostedService<BackgroundWorker>();
             services.AddSingleton<IBackgroundQueue<Book>, BackgroundQueue<Book>>();
-
-            services.AddScoped<IBookPublisher, BookPublisher>();//yazdýðým interface 'i buraya yazdým.publishi kapsamlý olarak kullan
+            services.AddScoped<IBookPublisher, BookPublisher>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

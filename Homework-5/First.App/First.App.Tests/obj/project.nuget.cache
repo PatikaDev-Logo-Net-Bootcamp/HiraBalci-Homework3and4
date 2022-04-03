@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9eukkcQWn8eRHZEVQw8SpiaVzWrd2La0VdTsjCx7ud91iqwDOGO4Xix69Bd0Zbd3Di5zCFF/C9eTlQRn3v1l1g==",
+  "dgSpecHash": "I+RcQuA7RvRQIwYJOkHVj1H+vXlmpylRnwcgHuQzw9m+fYVFTg4ZwStpqiFOJdSE5MbKV7b48p7PA6KnNpIPUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Tests\\First.App.Tests.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Tests\\First.App.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

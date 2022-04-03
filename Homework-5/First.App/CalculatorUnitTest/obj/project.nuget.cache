@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zFZam1xRy0tatSboMT4pMvahABRo6VpI9HbSbHmAb8RXpW/HzC3WZRXQKxnNUNLSF9yt403WIphBR5RI9eHoHw==",
+  "dgSpecHash": "rbhepyuAw8kCA5CnyLtDZ6jTB0gcfvVbsp6Da+mt/iv/gbkm4fq7vij6/Pw73CF/hdp1mDbzPJiOT/siar3n7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\First.App\\CalculatorUnitTest\\CalculatorUnitTest.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\CalculatorUnitTest\\CalculatorUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

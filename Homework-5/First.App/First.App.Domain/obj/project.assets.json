@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\First.App.Domain.csproj",
       "projectName": "First.App.Domain",
-      "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\First.App.Domain.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\deneme-2\\First.App\\First.App.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
