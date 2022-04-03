@@ -5743,11 +5743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
       "projectName": "First.App.DataAccess.EntityFramework.Repository",
-      "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework.Repository\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.DataAccess.EntityFramework.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5764,8 +5764,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj"
+            "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj"
             }
           }
         }

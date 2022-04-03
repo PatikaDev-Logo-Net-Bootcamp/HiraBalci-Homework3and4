@@ -92,6 +92,7 @@ namespace First.API
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));//interfacein metotlarý bundadýr.
             services.AddTransient<ICompanyService, CompanyService>();//interfacelerini ekledim.
+            services.AddTransient<IUserService, UserService>();
 
             //Diðer filtre türleri gibi, action filtresi de farklý kapsam seviyelerine eklenebilir: Global, Action, Controller.
 

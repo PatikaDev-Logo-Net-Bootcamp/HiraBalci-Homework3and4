@@ -11,6 +11,7 @@ namespace First.App.DataAccess.EntityFramework
 
         }
         public DbSet<Company> Companies { get; set; }
+        public DbSet<Users> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

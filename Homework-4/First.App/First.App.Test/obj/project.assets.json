@@ -5780,11 +5780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Test\\First.App.Console.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.Test\\First.App.Console.csproj",
       "projectName": "First.App.Console",
-      "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Test\\First.App.Console.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.Test\\First.App.Console.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Test\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5801,8 +5801,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\First.App\\First.App.Core\\First.App.Business.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Core\\First.App.Business.csproj"
+            "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.Core\\First.App.Business.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.Core\\First.App.Business.csproj"
             }
           }
         }

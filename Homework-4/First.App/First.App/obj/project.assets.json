@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\First.App\\First.App\\First.App.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App\\First.App.csproj",
       "projectName": "First.App",
-      "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App\\First.App.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App\\First.App.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\First.App\\First.App.Domain\\First.App.Domain.csproj"
+            "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\düzeltme-34.ödev\\First.App\\First.App.Domain\\First.App.Domain.csproj"
             }
           }
         }
