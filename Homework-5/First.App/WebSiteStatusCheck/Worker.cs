@@ -15,8 +15,8 @@ namespace PostWorker
 {
     public class Worker : BackgroundService
     {
-        private readonly ILogger<Worker> _logger;// loglama iþlemi yaptýðýmýz bir interface
-        private HttpClient httpClient;//request atýcam webistesine ayakta mý diye.
+        private readonly ILogger<Worker> _logger;// loglama iÃ¾lemi yaptÃ½Ã°Ã½mÃ½z bir interface
+        private HttpClient httpClient;//request atÃ½cam webistesine ayakta mÃ½ diye.
 
         private readonly IServiceScopeFactory _service;
         public Worker(ILogger<Worker> logger, IServiceScopeFactory service)
@@ -27,33 +27,33 @@ namespace PostWorker
         }
 
 
-        public override Task StartAsync(CancellationToken cancellationToken)//  bu executeAsync'i baþlatacaktýr.
+        public override Task StartAsync(CancellationToken cancellationToken)//  bu executeAsync'i baÃ¾latacaktÃ½r.
         {
-            httpClient = new HttpClient();//instanst almam lazým ki ben metotlarýmý kullanayým.
+            httpClient = new HttpClient();//instanst almam lazÃ½m ki ben metotlarÃ½mÃ½ kullanayÃ½m.
             return base.StartAsync(cancellationToken);
         }
 
-        public override Task StopAsync(CancellationToken cancellationToken)//iþlemi kapatýyor durdurludu diye log basabilirsin.
+        public override Task StopAsync(CancellationToken cancellationToken)//iÃ¾lemi kapatÃ½yor durdurludu diye log basabilirsin.
         {
-            httpClient.Dispose();//durduðunda yaptýðým tüm iþlemleri ramden atsýn þiþme olmasýn.
+            httpClient.Dispose();//durduÃ°unda yaptÃ½Ã°Ã½m tÃ¼m iÃ¾lemleri ramden atsÃ½n Ã¾iÃ¾me olmasÃ½n.
             return base.StopAsync(cancellationToken);
         }
 
-        public override void Dispose()//workerýmý silen methodum
+        public override void Dispose()//workerÃ½mÃ½ silen methodum
         {
             base.Dispose();
         }
-        protected override async Task ExecuteAsync(CancellationToken stoppingToken) //buda uzun iþleri yapýcak.
+        protected override async Task ExecuteAsync(CancellationToken stoppingToken) //buda uzun iÃ¾leri yapÃ½cak.
         {
             while (!stoppingToken.IsCancellationRequested)
             {
 
-                // var request = await httpClient.GetAsync("https://jsonplaceholder.typicode.com/posts").Result.Content.ReadAsStringAsync();//http client tan get veya post yapabilirsin ben get yaptým.siteye istek attým.Bana bu api'daki result sonucunda dönen bilgileri string olarak oku.
-                var request = await httpClient.GetAsync("https://jsonplaceholder.typicode.com/posts");//veri tabanýna git bu kaydý bas 
+                // var request = await httpClient.GetAsync("https://jsonplaceholder.typicode.com/posts").Result.Content.ReadAsStringAsync();//http client tan get veya post yapabilirsin ben get yaptÃ½m.siteye istek attÃ½m.Bana bu api'daki result sonucunda dÃ¶nen bilgileri string olarak oku.
+                var request = await httpClient.GetAsync("https://jsonplaceholder.typicode.com/posts");//veri tabanÃ½na git bu kaydÃ½ bas 
 
-                if (request.IsSuccessStatusCode)//eðer 200 kodu gelirse
+                if (request.IsSuccessStatusCode)//eÃ°er 200 kodu gelirse
                 {
-                    //_logger.LogInformation("Json Place Holder Data {0}", request.Content.ReadAsStringAsync().Result);//doðruysa log basalým.$ kullanmamýza gerek yok log methodundan ötürü.Sonuna awaitte yazabilirsin.
+                    //_logger.LogInformation("Json Place Holder Data {0}", request.Content.ReadAsStringAsync().Result);//doÃ°ruysa log basalÃ½m.$ kullanmamÃ½za gerek yok log methodundan Ã¶tÃ¼rÃ¼.Sonuna awaitte yazabilirsin.
                     var response = await request.Content.ReadAsStringAsync();
 
                     var posts = JsonConvert.DeserializeObject<List<Post>>(response);
@@ -76,10 +76,10 @@ namespace PostWorker
                 }
                 else
                 {
-                    _logger.LogError("Error Status Code", request.StatusCode);//yanlýþ olunca hata kodu dnecek1 dkda bir
+                    _logger.LogError("Error Status Code", request.StatusCode);//yanlÃ½Ã¾ olunca hata kodu dnecek1 dkda bir
                 }
 
-                await Task.Delay(1000, stoppingToken);//hangi aralýklarla çalýþacaðýný belirtebiliyorum  60 sn giriyorum.
+                await Task.Delay(60000, stoppingToken);//hangi aralÃ½klarla Ã§alÃ½Ã¾acaÃ°Ã½nÃ½ belirtebiliyorum  60 sn giriyorum.
             }
         }
     }
