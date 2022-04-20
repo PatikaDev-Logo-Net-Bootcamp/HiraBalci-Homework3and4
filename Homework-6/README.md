@@ -46,3 +46,10 @@ Yönetici daire bilgilerini girer.
 Web projesi için .Net 5 MVC
 Sistemin yönetimi/database için MS SQL Server
 Kredi kartı servisi için. Veriler mongodb de tutulacak. Servis .Net WebApi olarak yazılacaktır.
+![Ekran Görüntüsü (1)](https://user-images.githubusercontent.com/93313737/164309698-95f4258c-0a44-40b5-a381-99c838b6fb61.png)
+![Ekran Görüntüsü (7)](https://user-images.githubusercontent.com/93313737/164309722-c90eab45-a083-4012-bd37-fd75b55da393.png)
+![Ekran Görüntüsü (4)](https://user-images.githubusercontent.com/93313737/164309732-404d64e9-84ea-401b-9c95-597a7d0c097e.png)
+![Ekran Görüntüsü (3)](https://user-images.githubusercontent.com/93313737/164309735-c6a459e7-d35a-44c2-908b-d5c8744e00d3.png)
+![Ekran Görüntüsü (5)](https://user-images.githubusercontent.com/93313737/164309766-3c872ecb-d078-40e8-ac97-298ae8152254.png)
+![Ekran Görüntüsü (6)](https://user-images.githubusercontent.com/93313737/164309776-725f14dd-66a3-472e-9eed-a32309bfe1aa.png)
+![Ekran Görüntüsü (8)](https://user-images.githubusercontent.com/93313737/164309793-43dfe29d-9644-4978-a412-63560476c319.png)
